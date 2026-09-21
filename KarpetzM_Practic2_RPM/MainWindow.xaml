@@ -1,0 +1,18 @@
+﻿<Window x:Class="KarpetzM_Practic2_RPM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Главное меню" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Вариант №2" FontSize="28" FontWeight="Bold"
+                       HorizontalAlignment="Center" Margin="0,0,0,30"/>
+
+            <Button Content="Задача 1" Width="250" Height="45" Margin="5" Click="Task1_Click"/>
+            <Button Content="Задача 2" Width="250" Height="45" Margin="5" Click="Task2_Click"/>
+            <Button Content="Задача 3" Width="250" Height="45" Margin="5" Click="Task3_Click"/>
+            <Button Content="Задача 4" Width="250" Height="45" Margin="5" Click="Task4_Click"/>
+            <Button Content="Задача 5" Width="250" Height="45" Margin="5" Click="Task5_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
